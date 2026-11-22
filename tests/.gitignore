@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dynamic project outputs & logs
+outputs/
+*.log
+
+# Data directories (keep directory structure with .gitkeep if desired)
+data/raw/*
+data/synthetic/*
+data/uploads/*
+!data/**/.gitkeep
+
+# Environment variables & secrets
+.env
+.env.*
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
